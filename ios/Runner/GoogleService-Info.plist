@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>42592618547-8gjj8dt69a2pm83u76f4tbg3ggtt6u3k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.42592618547-8gjj8dt69a2pm83u76f4tbg3ggtt6u3k</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>42592618547-4vjka7bd8e9quplro5d7s2p3iuk264am.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDx6vxNdRlG7vR_EJtP9qaIhyOXRpKHD5I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>42592618547</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.liefermars</string>
+	<key>PROJECT_ID</key>
+	<string>pelagic-arch-382821</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pelagic-arch-382821.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:42592618547:ios:8574194380b3fb8272bb46</string>
+</dict>
+</plist>

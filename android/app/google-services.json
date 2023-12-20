@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42592618547",
+    "project_id": "pelagic-arch-382821",
+    "storage_bucket": "pelagic-arch-382821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42592618547:android:04dedfea118360a072bb46",
+        "android_client_info": {
+          "package_name": "com.example.liefermars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42592618547-0f3f1idl2cihtf1rdiifn54152557n7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFNlNIvgp8gk1GFsoMJH6TY-XE4UEHqlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42592618547-0f3f1idl2cihtf1rdiifn54152557n7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

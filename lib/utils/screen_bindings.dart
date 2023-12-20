@@ -1,0 +1,84 @@
+import 'package:get/get.dart';
+import 'package:liefermars/controller/account_screens_controller/account_setting_screen_controller.dart';
+import 'package:liefermars/controller/account_screens_controller/change_password_screen_controller.dart';
+import 'package:liefermars/controller/address_screens_controller/edit_address_screen_controller.dart';
+import 'package:liefermars/controller/address_screens_controller/my_address_screen_controller.dart';
+import 'package:liefermars/controller/auth_screens_controller/forget_password_screen_controller.dart';
+import 'package:liefermars/controller/auth_screens_controller/login_sreen_controller.dart';
+import 'package:liefermars/controller/auth_screens_controller/signup_screen_controller.dart';
+import 'package:liefermars/controller/dashboard_screens_controller/delivery_list_screen_controller.dart';
+import 'package:liefermars/controller/dashboard_screens_controller/restaurant_detail_screen_controller.dart';
+import 'package:liefermars/controller/dashboard_screens_controller/restaurant_information_screen_controller.dart';
+import 'package:liefermars/controller/general_screens_controller/become_a_partner_screen_controller.dart';
+import 'package:liefermars/controller/general_screens_controller/review_screen_controller.dart';
+import 'package:liefermars/controller/order_screens_controller/order_detail_screen_controller.dart';
+import '../controller/account_screens_controller/account_screen_controller.dart';
+import '../controller/account_screens_controller/delete_account_screen_controller.dart';
+import '../controller/account_screens_controller/profile_data_screen_controller.dart';
+import '../controller/account_screens_controller/profile_screen_controller.dart';
+import '../controller/auth_screens_controller/reset_password_screen_controller.dart';
+import '../controller/auth_screens_controller/splash_screen_controller.dart';
+import '../controller/dashboard_screens_controller/dashboard_screen_controller.dart';
+import '../controller/dashboard_screens_controller/delivery_screen_controller.dart';
+import '../controller/dashboard_screens_controller/filter_screen_controller.dart';
+import '../controller/dashboard_screens_controller/home_screen_controller.dart';
+import '../controller/dashboard_screens_controller/pickup_screen_controller.dart';
+import '../controller/dashboard_screens_controller/product_info_screen_controller.dart';
+import '../controller/dashboard_screens_controller/restaurant_review_screen_controller.dart';
+import '../controller/general_screens_controller/credit_card_screen_controller.dart';
+import '../controller/general_screens_controller/custom_appbar_controller.dart';
+import '../controller/general_screens_controller/custom_navigation_drawer_controller.dart';
+import '../controller/general_screens_controller/indox_screen_controller.dart';
+import '../controller/general_screens_controller/recommand_restaurant_screen_controller.dart';
+import '../controller/general_screens_controller/submit_review_screen_controller.dart';
+import '../controller/order_screens_controller/checkout_screen_controller.dart';
+import '../controller/order_screens_controller/order_view_screen_controller.dart';
+import '../controller/order_screens_controller/orders_screen_controller.dart';
+import '../controller/order_screens_controller/payment_done_screen_controller.dart';
+import '../controller/order_screens_controller/payment_method_screen_controller.dart';
+import 'app_constants.dart';
+
+
+class ScreenBindings extends Bindings{
+  @override
+  void dependencies() {
+    Get.lazyPut(() => SplashScreenController());
+    Get.lazyPut(() => LoginScreenController());
+    Get.lazyPut(() => SignUpScreenController());
+    Get.lazyPut(() => ForgetPasswordScreenController());
+    Get.lazyPut(() => AccountSettingScreenController());
+    Get.lazyPut(() => AccountScreenController());
+    Get.lazyPut(() => ChangePasswordScreenController());
+    Get.lazyPut(() => OrdersScreenController());
+    Get.lazyPut(() => OrderDetailScreenController());
+    Get.lazyPut(() => MyAddressScreenController());
+    Get.lazyPut(() => EditAddressScreenController());
+    Get.lazyPut(() => InboxScreenController());
+    Get.lazyPut(() => CreditCardScreenController());
+    Get.lazyPut(() => ReviewScreenController());
+    Get.lazyPut(() => DashboardScreenController());
+    Get.lazyPut(() => DashboardScreenController(),tag: kDashBoardController);
+    Get.lazyPut(() => HomeScreenController(),tag: kHomeController);
+    Get.lazyPut(() => PickUpScreenController());
+    Get.lazyPut(() => DeliveryScreenController());
+    Get.lazyPut(() => FilterScreenController());
+    Get.lazyPut(() => CustomNavigationDrawerController(),tag: kNavigationDrawerController);
+    Get.lazyPut(() => SubmitReviewScreenController());
+    Get.lazyPut(() => ProfileScreenController());
+    Get.lazyPut(() => RestaurantDetailScreenController());
+    Get.lazyPut(() => RestaurantInformationScreenController());
+    Get.lazyPut(() => OrderViewScreenController());
+    Get.lazyPut(() => CheckOutScreenController());
+    Get.lazyPut(() => PaymentMethodScreenController());
+    Get.lazyPut(() => ProductInfoScreenController());
+    Get.lazyPut(() => DeliveryListScreenController(),tag: kDeliveryListController);
+    Get.lazyPut(() => ProfileDataScreenController());
+    Get.lazyPut(() => ResetPasswordScreenController());
+    Get.lazyPut(() => BecomeAPartnerScreenController());
+    Get.lazyPut(() => RecommendRestaurantScreenController());
+    Get.lazyPut(() => RestaurantReviewScreenController());
+    Get.lazyPut(() => PaymentDoneScreenController());
+    Get.lazyPut(() => CustomAppBarController());
+    Get.lazyPut(() => DeleteAccountScreenController());
+  }
+}
